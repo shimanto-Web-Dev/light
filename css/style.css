@@ -40,6 +40,7 @@ h1,h2,h3,h4,h5,h6,p{
     display: flex;
     gap: 8px;
     align-items: center;
+    justify-content: center;
     font: 400 12px var(--opensans);
     color: var(--primary_color);
     line-height: 17px;
@@ -67,7 +68,7 @@ h1,h2,h3,h4,h5,h6,p{
     background-repeat: no-repeat;
     background-size: cover;
     padding: 250px 0;
-    overflow: hidden;
+    /* overflow: hidden; */
     animation-name: banner;
     animation-duration: 1.1s;
     animation-timing-function: linear;
@@ -130,9 +131,6 @@ h1,h2,h3,h4,h5,h6,p{
 @keyframes heading {
     0%{
         transform: translateY(100%);
-        overflow: visible;
-    }
-    100%{
     }
 }
 
