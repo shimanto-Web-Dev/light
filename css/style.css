@@ -116,10 +116,14 @@ h1,h2,h3,h4,h5,h6,p{
     line-height: 17px;
     letter-spacing: 1px;
     transition: .3s;
+    padding: 10px 15px;
+    background-color: #FFCE00;
+    border-radius: 10px;
     width: fit-content;
+    animation: banner_button 1s infinite linear alternate;
 }
 #banner a:hover{
-    color: #FFCE00;
+    color: white;
 }
 
 /* ============= banner animattion =============== */
@@ -132,6 +136,12 @@ h1,h2,h3,h4,h5,h6,p{
 @keyframes heading {
     0%{
         transform: translateY(100%);
+    }
+}
+
+@keyframes banner_button {
+    0%{
+        transform: scale(1.2);
     }
 }
 
@@ -193,6 +203,18 @@ h1,h2,h3,h4,h5,h6,p{
     color: #FFCE00;
 }
 
+#product .rotate{
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(-360deg);
+    }
+}
 
 
 
