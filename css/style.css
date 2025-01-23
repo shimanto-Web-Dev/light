@@ -100,7 +100,7 @@ h1,h2,h3,h4,h5,h6,p{
     bottom: -5px;
 }
 #banner p{
-    width: 548px;
+    width: 100%;
     margin: 22px 0;
     font: italic 14px var(--opensans);
     color: var(--second_color);
@@ -116,6 +116,7 @@ h1,h2,h3,h4,h5,h6,p{
     line-height: 17px;
     letter-spacing: 1px;
     transition: .3s;
+    width: fit-content;
 }
 #banner a:hover{
     color: #FFCE00;
